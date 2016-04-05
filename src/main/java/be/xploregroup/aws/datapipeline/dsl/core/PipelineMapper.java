@@ -16,6 +16,7 @@ import java.util.Map;
 public class PipelineMapper extends PipelineObject {
     private String id;
     private String name;
+    private String parent;
     private Map<String, PipelineProperty> fieldMap;
 
     @Override
